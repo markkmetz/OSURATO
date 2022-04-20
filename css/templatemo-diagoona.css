@@ -306,6 +306,7 @@ textarea {
         border-bottom: 50px solid rgba(0,0,0,0.5);
         border-right: 0;
         border-top: 0;
+        visibility: hidden;
     }
 
     .tm-bg-right { height: calc(100% - 200px); }
@@ -354,7 +355,8 @@ textarea {
 .indeximg{
     margin-right: 20px;
     margin-left: 20px;
-    max-width: 300px;
+    width: 90%;
+    max-width: 400px;
 }
 
 .galimg{
@@ -365,8 +367,8 @@ textarea {
     
 }
 .profimg{
-    max-width: 150px;
-    max-height: 150px;
+    width: 150px;
+    height: 150px;
     padding-right: 20px;
 }
 
@@ -502,4 +504,9 @@ left.{
 }
 right.{
     
+}
+.media{
+    display: inline;
+        float: left;  
+    text-align: justify; 
 }
